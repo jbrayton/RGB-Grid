@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2117BB6E15B0B94400D62BE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2117BB6D15B0B94400D62BE6 /* Cocoa.framework */; };
+		2117BB7815B0B94400D62BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2117BB7615B0B94400D62BE6 /* InfoPlist.strings */; };
+		2117BB7A15B0B94400D62BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB7915B0B94400D62BE6 /* main.m */; };
+		2117BB8115B0B94400D62BE6 /* RGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB8015B0B94400D62BE6 /* RGBAppDelegate.m */; };
+		2117BB8415B0B94400D62BE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2117BB8215B0B94400D62BE6 /* MainMenu.xib */; };
+		2117BB8D15B0B98900D62BE6 /* RGBMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB8B15B0B98900D62BE6 /* RGBMainWindowController.m */; };
+		2117BB8E15B0B98900D62BE6 /* RGBMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2117BB8C15B0B98900D62BE6 /* RGBMainWindow.xib */; };
+		2117BB9115B0BA7900D62BE6 /* RGBGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB9015B0BA7900D62BE6 /* RGBGridView.m */; };
+		2117BB9A15B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */; };
+		2117BB9B15B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */; };
+		21975CFD15B209CD007F8E55 /* RGBRandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */; };
+		21975D0015B22110007F8E55 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 21975CFF15B22110007F8E55 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2117BB6915B0B94400D62BE6 /* RGBGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2117BB6D15B0B94400D62BE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2117BB7015B0B94400D62BE6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2117BB7115B0B94400D62BE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2117BB7215B0B94400D62BE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2117BB7515B0B94400D62BE6 /* RGBGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RGBGrid-Info.plist"; sourceTree = "<group>"; };
+		2117BB7715B0B94400D62BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2117BB7915B0B94400D62BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2117BB7B15B0B94400D62BE6 /* RGBGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGBGrid-Prefix.pch"; sourceTree = "<group>"; };
+		2117BB7F15B0B94400D62BE6 /* RGBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBAppDelegate.h; sourceTree = "<group>"; };
+		2117BB8015B0B94400D62BE6 /* RGBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBAppDelegate.m; sourceTree = "<group>"; };
+		2117BB8315B0B94400D62BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2117BB8A15B0B98900D62BE6 /* RGBMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBMainWindowController.h; sourceTree = "<group>"; };
+		2117BB8B15B0B98900D62BE6 /* RGBMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBMainWindowController.m; sourceTree = "<group>"; };
+		2117BB8C15B0B98900D62BE6 /* RGBMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGBMainWindow.xib; sourceTree = "<group>"; };
+		2117BB8F15B0BA7900D62BE6 /* RGBGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBGridView.h; sourceTree = "<group>"; };
+		2117BB9015B0BA7900D62BE6 /* RGBGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBGridView.m; sourceTree = "<group>"; };
+		2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGBChangeDimensionsWindow.xib; sourceTree = "<group>"; };
+		2117BB9815B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBChangeDimensionsWindowController.h; sourceTree = "<group>"; };
+		2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBChangeDimensionsWindowController.m; sourceTree = "<group>"; };
+		21975CFB15B209CD007F8E55 /* RGBRandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBRandomGenerator.h; sourceTree = "<group>"; };
+		21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBRandomGenerator.m; sourceTree = "<group>"; };
+		21975CFF15B22110007F8E55 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2117BB6615B0B94400D62BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2117BB6E15B0B94400D62BE6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2117BB5E15B0B94400D62BE6 = {
+			isa = PBXGroup;
+			children = (
+				2117BB7315B0B94400D62BE6 /* RGBGrid */,
+				2117BB6C15B0B94400D62BE6 /* Frameworks */,
+				2117BB6A15B0B94400D62BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2117BB6A15B0B94400D62BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2117BB6915B0B94400D62BE6 /* RGBGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2117BB6C15B0B94400D62BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2117BB6D15B0B94400D62BE6 /* Cocoa.framework */,
+				2117BB6F15B0B94400D62BE6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2117BB6F15B0B94400D62BE6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2117BB7015B0B94400D62BE6 /* AppKit.framework */,
+				2117BB7115B0B94400D62BE6 /* CoreData.framework */,
+				2117BB7215B0B94400D62BE6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2117BB7315B0B94400D62BE6 /* RGBGrid */ = {
+			isa = PBXGroup;
+			children = (
+				2117BB8F15B0BA7900D62BE6 /* RGBGridView.h */,
+				2117BB9015B0BA7900D62BE6 /* RGBGridView.m */,
+				2117BB8C15B0B98900D62BE6 /* RGBMainWindow.xib */,
+				2117BB8A15B0B98900D62BE6 /* RGBMainWindowController.h */,
+				2117BB8B15B0B98900D62BE6 /* RGBMainWindowController.m */,
+				2117BB8215B0B94400D62BE6 /* MainMenu.xib */,
+				2117BB7F15B0B94400D62BE6 /* RGBAppDelegate.h */,
+				2117BB8015B0B94400D62BE6 /* RGBAppDelegate.m */,
+				21975CFB15B209CD007F8E55 /* RGBRandomGenerator.h */,
+				21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */,
+				2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */,
+				2117BB9815B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.h */,
+				2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */,
+				2117BB7415B0B94400D62BE6 /* Supporting Files */,
+			);
+			path = RGBGrid;
+			sourceTree = "<group>";
+		};
+		2117BB7415B0B94400D62BE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21975CFF15B22110007F8E55 /* icon.icns */,
+				2117BB7515B0B94400D62BE6 /* RGBGrid-Info.plist */,
+				2117BB7615B0B94400D62BE6 /* InfoPlist.strings */,
+				2117BB7915B0B94400D62BE6 /* main.m */,
+				2117BB7B15B0B94400D62BE6 /* RGBGrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2117BB6815B0B94400D62BE6 /* RGBGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2117BB8715B0B94400D62BE6 /* Build configuration list for PBXNativeTarget "RGBGrid" */;
+			buildPhases = (
+				2117BB6515B0B94400D62BE6 /* Sources */,
+				2117BB6615B0B94400D62BE6 /* Frameworks */,
+				2117BB6715B0B94400D62BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBGrid;
+			productName = RGBGrid;
+			productReference = 2117BB6915B0B94400D62BE6 /* RGBGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2117BB6015B0B94400D62BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RGB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2117BB6315B0B94400D62BE6 /* Build configuration list for PBXProject "RGBGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2117BB5E15B0B94400D62BE6;
+			productRefGroup = 2117BB6A15B0B94400D62BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2117BB6815B0B94400D62BE6 /* RGBGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2117BB6715B0B94400D62BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2117BB7815B0B94400D62BE6 /* InfoPlist.strings in Resources */,
+				2117BB8415B0B94400D62BE6 /* MainMenu.xib in Resources */,
+				2117BB8E15B0B98900D62BE6 /* RGBMainWindow.xib in Resources */,
+				2117BB9A15B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib in Resources */,
+				21975D0015B22110007F8E55 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2117BB6515B0B94400D62BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2117BB7A15B0B94400D62BE6 /* main.m in Sources */,
+				2117BB8115B0B94400D62BE6 /* RGBAppDelegate.m in Sources */,
+				2117BB8D15B0B98900D62BE6 /* RGBMainWindowController.m in Sources */,
+				2117BB9115B0BA7900D62BE6 /* RGBGridView.m in Sources */,
+				2117BB9B15B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m in Sources */,
+				21975CFD15B209CD007F8E55 /* RGBRandomGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2117BB7615B0B94400D62BE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2117BB7715B0B94400D62BE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2117BB8215B0B94400D62BE6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2117BB8315B0B94400D62BE6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2117BB8515B0B94400D62BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2117BB8615B0B94400D62BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2117BB8815B0B94400D62BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGBGrid/RGBGrid-Prefix.pch";
+				INFOPLIST_FILE = "RGBGrid/RGBGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2117BB8915B0B94400D62BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RGBGrid/RGBGrid-Prefix.pch";
+				INFOPLIST_FILE = "RGBGrid/RGBGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2117BB6315B0B94400D62BE6 /* Build configuration list for PBXProject "RGBGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2117BB8515B0B94400D62BE6 /* Debug */,
+				2117BB8615B0B94400D62BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2117BB8715B0B94400D62BE6 /* Build configuration list for PBXNativeTarget "RGBGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2117BB8815B0B94400D62BE6 /* Debug */,
+				2117BB8915B0B94400D62BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2117BB6015B0B94400D62BE6 /* Project object */;
+}
