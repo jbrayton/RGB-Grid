@@ -23,6 +23,7 @@
 
 - (void) awakeFromNib {
     [[self window] center];
+    [[self window] setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
 }
 
 - (void) setNumRows:(NSInteger) argNumRows columns:(NSInteger) argNumColumns {
