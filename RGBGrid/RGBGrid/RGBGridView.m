@@ -50,6 +50,23 @@
             }
         }
     }
+    
+    // grid lines around the boxes
+    [[NSColor blackColor] set];
+    for( NSInteger i = 0; i < numRows - 1; i++ ) {
+        NSBezierPath* path = [NSBezierPath bezierPath];
+        CGFloat y = (i+1)*bounds.size.height/numRows;
+        [path moveToPoint:NSMakePoint(0, y)];
+        [path lineToPoint:NSMakePoint(bounds.size.width, y)];
+        [path stroke];
+    }
+    for( NSInteger i = 0; i < numColumns - 1; i++ ) {
+        NSBezierPath* path = [NSBezierPath bezierPath];
+        CGFloat x = (i+1) * bounds.size.width / numRows;
+        [path moveToPoint:NSMakePoint(x, 0)];
+        [path lineToPoint:NSMakePoint(x, bounds.size.height)];
+        [path stroke];
+    }
 }
 
 - (void) setNumRows:(NSInteger)argNumRows columns:(NSInteger)argNumColumns {
