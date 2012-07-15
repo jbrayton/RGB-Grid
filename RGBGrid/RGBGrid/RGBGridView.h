@@ -10,7 +10,6 @@
     NSMutableArray* colors;
     NSInteger numRows;
     NSInteger numColumns;
-    NSInteger lastChangedColorIndex;
 }
 
 - (void) setNumRows:(NSInteger) argNumRows columns:(NSInteger) argNumColumns;

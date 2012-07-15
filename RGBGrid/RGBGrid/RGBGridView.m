@@ -18,11 +18,10 @@
     RGBAppDelegate* appDelegate = (RGBAppDelegate*) [NSApp delegate];
     numRows = [appDelegate numRows];
     numColumns = [appDelegate numColumns];
-    lastChangedColorIndex = 0;
     
     colors = [NSMutableArray arrayWithObjects:[NSColor redColor], [NSColor greenColor] , [NSColor blueColor], [NSColor orangeColor], [NSColor purpleColor], [NSColor blackColor], nil];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(newColor:) name:@"newcolor" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(newColors:) name:@"newcolors" object:nil];
     
     return self;
 }
@@ -62,7 +61,7 @@
     }
     for( NSInteger i = 0; i < numColumns - 1; i++ ) {
         NSBezierPath* path = [NSBezierPath bezierPath];
-        CGFloat x = (i+1) * bounds.size.width / numRows;
+        CGFloat x = (i+1) * bounds.size.width / numColumns;
         [path moveToPoint:NSMakePoint(x, 0)];
         [path lineToPoint:NSMakePoint(x, bounds.size.height)];
         [path stroke];
@@ -77,19 +76,9 @@
 
 #pragma mark Notification Handler
 
-- (void) newColor:(NSNotification*) argNotification {
-    NSColor* color = [[argNotification userInfo] objectForKey:@"color"];
-    NSInteger newColorIndex = lastChangedColorIndex + 1;
-    if (newColorIndex >= (numRows * numColumns)) {
-        newColorIndex = 0;
-    }
-    if (newColorIndex >= [colors count]) {
-        [colors addObject:color];
-    } else {
-        [colors replaceObjectAtIndex:newColorIndex withObject:color];
-    }
+- (void) newColors:(NSNotification*) argNotification {
+    colors = [[argNotification userInfo] objectForKey:@"colors"];
     [self setNeedsDisplay:YES];
-    lastChangedColorIndex = newColorIndex;
 }
 
 @end
