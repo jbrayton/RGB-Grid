@@ -8,7 +8,7 @@
 #import "RGBAppDelegate.h"
 #import "RGBChangeDimensionsWindowController.h"
 #import "RGBMainWindowController.h"
-#import "RGBRandomGenerator.h"
+#import "RGBColorGenerator.h"
 
 #define USER_DEFAULTS_NUM_ROWS @"numrows"
 #define USER_DEFAULTS_NUM_COLUMNS @"numcolumns"
@@ -30,7 +30,7 @@
         numColumns = INITIAL_NUM_COLUMNS;
     }
     
-    randomGenerator = [[RGBRandomGenerator alloc] init];
+    colorGenerator = [[RGBColorGenerator alloc] init];
     changeDimensionsWindowController = nil;
     mainWindowController = [[RGBMainWindowController alloc] init];
     [mainWindowController showWindow:nil];

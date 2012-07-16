@@ -8,10 +8,10 @@
 #import <Cocoa/Cocoa.h>
 @class RGBChangeDimensionsWindowController;
 @class RGBMainWindowController;
-@class RGBRandomGenerator;
+@class RGBColorGenerator;
 
 @interface RGBAppDelegate : NSObject <NSApplicationDelegate> {
-    RGBRandomGenerator* randomGenerator;
+    RGBColorGenerator* colorGenerator;
     RGBChangeDimensionsWindowController* changeDimensionsWindowController;
     RGBMainWindowController* mainWindowController;
     NSInteger numRows;

@@ -1,18 +1,18 @@
 //
-//  RGBRandomGenerator.m
+//  RGBColorGenerator.m
 //  RGBGrid
 //
 //  Created by John Brayton on 7/13/12.
 //
 
-#import "RGBRandomGenerator.h"
+#import "RGBColorGenerator.h"
 #import "RGBAppDelegate.h"
 
-@interface RGBRandomGenerator ()
+@interface RGBColorGenerator ()
 - (float) randomFloat;
 @end
 
-@implementation RGBRandomGenerator
+@implementation RGBColorGenerator
 
 - (id) init {
     srand((unsigned char) time(NULL));

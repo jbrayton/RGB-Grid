@@ -17,7 +17,7 @@
 		2117BB9115B0BA7900D62BE6 /* RGBGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB9015B0BA7900D62BE6 /* RGBGridView.m */; };
 		2117BB9A15B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */; };
 		2117BB9B15B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */; };
-		21975CFD15B209CD007F8E55 /* RGBRandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */; };
+		21975CFD15B209CD007F8E55 /* RGBColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21975CFC15B209CD007F8E55 /* RGBColorGenerator.m */; };
 		21975D0015B22110007F8E55 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 21975CFF15B22110007F8E55 /* icon.icns */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +42,8 @@
 		2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGBChangeDimensionsWindow.xib; sourceTree = "<group>"; };
 		2117BB9815B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBChangeDimensionsWindowController.h; sourceTree = "<group>"; };
 		2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBChangeDimensionsWindowController.m; sourceTree = "<group>"; };
-		21975CFB15B209CD007F8E55 /* RGBRandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBRandomGenerator.h; sourceTree = "<group>"; };
-		21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBRandomGenerator.m; sourceTree = "<group>"; };
+		21975CFB15B209CD007F8E55 /* RGBColorGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; path = RGBColorGenerator.h; sourceTree = "<group>"; };
+		21975CFC15B209CD007F8E55 /* RGBColorGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBColorGenerator.m; sourceTree = "<group>"; };
 		21975CFF15B22110007F8E55 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +106,8 @@
 				2117BB8215B0B94400D62BE6 /* MainMenu.xib */,
 				2117BB7F15B0B94400D62BE6 /* RGBAppDelegate.h */,
 				2117BB8015B0B94400D62BE6 /* RGBAppDelegate.m */,
-				21975CFB15B209CD007F8E55 /* RGBRandomGenerator.h */,
-				21975CFC15B209CD007F8E55 /* RGBRandomGenerator.m */,
+				21975CFB15B209CD007F8E55 /* RGBColorGenerator.h */,
+				21975CFC15B209CD007F8E55 /* RGBColorGenerator.m */,
 				2117BB9715B0C5FF00D62BE6 /* RGBChangeDimensionsWindow.xib */,
 				2117BB9815B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.h */,
 				2117BB9915B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m */,
@@ -199,7 +199,7 @@
 				2117BB8D15B0B98900D62BE6 /* RGBMainWindowController.m in Sources */,
 				2117BB9115B0BA7900D62BE6 /* RGBGridView.m in Sources */,
 				2117BB9B15B0C5FF00D62BE6 /* RGBChangeDimensionsWindowController.m in Sources */,
-				21975CFD15B209CD007F8E55 /* RGBRandomGenerator.m in Sources */,
+				21975CFD15B209CD007F8E55 /* RGBColorGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
